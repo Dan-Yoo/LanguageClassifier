@@ -1,0 +1,58 @@
+I'm OK.
+
+UNIGRAM MODEL:
+UNIGRAM: i
+FR: P(i) = 0.066885 ==> log prob of sentence so far: -139.268411
+EN: P(i) = 0.073778 ==> log prob of sentence so far: -184.202309
+
+UNIGRAM: m
+FR: P(m) = 0.024385 ==> log prob of sentence so far: -142.982198
+EN: P(m) = 0.030049 ==> log prob of sentence so far: -187.707234
+
+UNIGRAM: o
+FR: P(o) = 0.073867 ==> log prob of sentence so far: -145.587687
+EN: P(o) = 0.053755 ==> log prob of sentence so far: -190.630553
+
+UNIGRAM: k
+FR: P(k) = 0.008515 ==> log prob of sentence so far: -150.353613
+EN: P(k) = 0.000256 ==> log prob of sentence so far: -198.900886
+
+According to the unigram model, the sentence is English
+------------------------------------------------------
+BIGRAM MODEL:
+BIGRAM: i
+FR: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: '
+FR: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: m
+FR: P(m) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(m) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM:  
+FR: P( ) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P( ) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: o
+FR: P(o) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(o) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: k
+FR: P(k) = 0.000026 ==> log prob of sentence so far: -10.541011
+EN: P(k) = 0.001249 ==> log prob of sentence so far: -6.685436
+
+BIGRAM: .
+FR: P(.) = 0.000026 ==> log prob of sentence so far: -10.541011
+EN: P(.) = 0.001249 ==> log prob of sentence so far: -6.685436
+
+BIGRAM: 
+
+FR: P(
+) = 0.000026 ==> log prob of sentence so far: -10.541011
+EN: P(
+) = 0.001249 ==> log prob of sentence so far: -6.685436
+
+According to the unigram model, the sentence is English

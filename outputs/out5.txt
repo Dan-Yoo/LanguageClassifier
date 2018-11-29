@@ -1,0 +1,82 @@
+I hate AI.
+
+UNIGRAM MODEL:
+UNIGRAM: i
+FR: P(i) = 0.066885 ==> log prob of sentence so far: -71.933196
+EN: P(i) = 0.073778 ==> log prob of sentence so far: -74.722127
+
+UNIGRAM: h
+FR: P(h) = 0.066371 ==> log prob of sentence so far: -74.645691
+EN: P(h) = 0.007839 ==> log prob of sentence so far: -79.570771
+
+UNIGRAM: a
+FR: P(a) = 0.081406 ==> log prob of sentence so far: -77.153997
+EN: P(a) = 0.084115 ==> log prob of sentence so far: -82.046342
+
+UNIGRAM: t
+FR: P(t) = 0.092448 ==> log prob of sentence so far: -79.535106
+EN: P(t) = 0.069295 ==> log prob of sentence so far: -84.715724
+
+UNIGRAM: e
+FR: P(e) = 0.125256 ==> log prob of sentence so far: -81.612502
+EN: P(e) = 0.173428 ==> log prob of sentence so far: -86.467717
+
+UNIGRAM: a
+FR: P(a) = 0.081406 ==> log prob of sentence so far: -84.120808
+EN: P(a) = 0.084115 ==> log prob of sentence so far: -88.943287
+
+UNIGRAM: i
+FR: P(i) = 0.066885 ==> log prob of sentence so far: -86.825589
+EN: P(i) = 0.073778 ==> log prob of sentence so far: -91.549982
+
+According to the unigram model, the sentence is English
+------------------------------------------------------
+BIGRAM MODEL:
+BIGRAM: i
+FR: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM:  
+FR: P( ) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P( ) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: h
+FR: P(h) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(h) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: a
+FR: P(a) = 0.003016 ==> log prob of sentence so far: -5.803685
+EN: P(a) = 0.015730 ==> log prob of sentence so far: -4.152170
+
+BIGRAM: t
+FR: P(t) = 0.005042 ==> log prob of sentence so far: -11.093669
+EN: P(t) = 0.014239 ==> log prob of sentence so far: -8.403918
+
+BIGRAM: e
+FR: P(e) = 0.015728 ==> log prob of sentence so far: -15.246002
+EN: P(e) = 0.009737 ==> log prob of sentence so far: -13.035723
+
+BIGRAM:  
+FR: P( ) = 0.015728 ==> log prob of sentence so far: -15.246002
+EN: P( ) = 0.009737 ==> log prob of sentence so far: -13.035723
+
+BIGRAM: a
+FR: P(a) = 0.015728 ==> log prob of sentence so far: -15.246002
+EN: P(a) = 0.009737 ==> log prob of sentence so far: -13.035723
+
+BIGRAM: i
+FR: P(i) = 0.021900 ==> log prob of sentence so far: -19.067262
+EN: P(i) = 0.004736 ==> log prob of sentence so far: -18.388344
+
+BIGRAM: .
+FR: P(.) = 0.021900 ==> log prob of sentence so far: -19.067262
+EN: P(.) = 0.004736 ==> log prob of sentence so far: -18.388344
+
+BIGRAM: 
+
+FR: P(
+) = 0.021900 ==> log prob of sentence so far: -19.067262
+EN: P(
+) = 0.004736 ==> log prob of sentence so far: -18.388344
+
+According to the unigram model, the sentence is English

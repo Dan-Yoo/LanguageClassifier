@@ -1,0 +1,90 @@
+J'aime l'IA. 
+UNIGRAM MODEL:
+UNIGRAM: j
+FR: P(j) = 0.000896 ==> log prob of sentence so far: -101.430697
+EN: P(j) = 0.004690 ==> log prob of sentence so far: -97.636474
+
+UNIGRAM: a
+FR: P(a) = 0.081406 ==> log prob of sentence so far: -103.939004
+EN: P(a) = 0.084115 ==> log prob of sentence so far: -100.112045
+
+UNIGRAM: i
+FR: P(i) = 0.066885 ==> log prob of sentence so far: -106.643784
+EN: P(i) = 0.073778 ==> log prob of sentence so far: -102.718739
+
+UNIGRAM: m
+FR: P(m) = 0.024385 ==> log prob of sentence so far: -110.357571
+EN: P(m) = 0.030049 ==> log prob of sentence so far: -106.223665
+
+UNIGRAM: e
+FR: P(e) = 0.125256 ==> log prob of sentence so far: -112.434967
+EN: P(e) = 0.173428 ==> log prob of sentence so far: -107.975658
+
+UNIGRAM: l
+FR: P(l) = 0.045234 ==> log prob of sentence so far: -115.530873
+EN: P(l) = 0.052278 ==> log prob of sentence so far: -110.926838
+
+UNIGRAM: i
+FR: P(i) = 0.066885 ==> log prob of sentence so far: -118.235654
+EN: P(i) = 0.073778 ==> log prob of sentence so far: -113.533532
+
+UNIGRAM: a
+FR: P(a) = 0.081406 ==> log prob of sentence so far: -120.743960
+EN: P(a) = 0.084115 ==> log prob of sentence so far: -116.009103
+
+According to the unigram model, the sentence is French
+------------------------------------------------------
+BIGRAM MODEL:
+BIGRAM: j
+FR: P(j) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(j) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: '
+FR: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: a
+FR: P(a) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(a) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: i
+FR: P(i) = 0.021900 ==> log prob of sentence so far: -3.821260
+EN: P(i) = 0.004736 ==> log prob of sentence so far: -5.352622
+
+BIGRAM: m
+FR: P(m) = 0.002133 ==> log prob of sentence so far: -9.971481
+EN: P(m) = 0.003892 ==> log prob of sentence so far: -10.901364
+
+BIGRAM: e
+FR: P(e) = 0.014380 ==> log prob of sentence so far: -14.213404
+EN: P(e) = 0.007971 ==> log prob of sentence so far: -15.733344
+
+BIGRAM:  
+FR: P( ) = 0.014380 ==> log prob of sentence so far: -14.213404
+EN: P( ) = 0.007971 ==> log prob of sentence so far: -15.733344
+
+BIGRAM: l
+FR: P(l) = 0.014380 ==> log prob of sentence so far: -14.213404
+EN: P(l) = 0.007971 ==> log prob of sentence so far: -15.733344
+
+BIGRAM: '
+FR: P(') = 0.014380 ==> log prob of sentence so far: -14.213404
+EN: P(') = 0.007971 ==> log prob of sentence so far: -15.733344
+
+BIGRAM: i
+FR: P(i) = 0.014380 ==> log prob of sentence so far: -14.213404
+EN: P(i) = 0.007971 ==> log prob of sentence so far: -15.733344
+
+BIGRAM: a
+FR: P(a) = 0.000983 ==> log prob of sentence so far: -21.137848
+EN: P(a) = 0.001387 ==> log prob of sentence so far: -22.313646
+
+BIGRAM: .
+FR: P(.) = 0.000983 ==> log prob of sentence so far: -21.137848
+EN: P(.) = 0.001387 ==> log prob of sentence so far: -22.313646
+
+BIGRAM:  
+FR: P( ) = 0.000983 ==> log prob of sentence so far: -21.137848
+EN: P( ) = 0.001387 ==> log prob of sentence so far: -22.313646
+
+According to the unigram model, the sentence is French

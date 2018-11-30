@@ -4,9 +4,10 @@ character_set = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'
 # returns a dictionary containing character: probability
 def generate(dict, total_words):
     unigram = {}
+    total = 0
     for key, value in dict.items():
+        total += value
         unigram[key] = value/ float(total_words)
-        
     return unigram
 
 # takes as input unigram dict

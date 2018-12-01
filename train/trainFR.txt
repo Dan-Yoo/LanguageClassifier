@@ -1,0 +1,2 @@
+language_text/fr-le-petit-prince.txt
+language_text/fr-vingt-mille-lieues-sous-les-mers.txt

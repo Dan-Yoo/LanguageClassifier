@@ -1,0 +1,2 @@
+language_text/dc-text-1.txt
+language_text/dc-text-2.txt

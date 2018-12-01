@@ -1,9 +1,10 @@
-character_set = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', ' ', '\'', '-']
+import unigram
+character_set = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 # takes as input, the dictionary of character occurance
 # and the total number of characters
 # returns a dictionary containing character: probability
-def generate(dict, total_bigrams):
+def generate(dict, uni):
     bigram = {}
     for items in dict.items():
         key = items[0]
@@ -11,7 +12,8 @@ def generate(dict, total_bigrams):
         bigram[key] = {}
 
         for c in value.items():
-            bigram[key][c[0]] = c[1] / float(total_bigrams)
+            total_count = uni[c[0]]
+            bigram[key][c[0]] = c[1] / (total_count + (len(character_set) * len(character_set)))
 
     return bigram
 
@@ -50,7 +52,8 @@ def load(path):
     return bigram
 
 # takes as input a training file, and outputs the bigram
-def train(train_files):
+def train(train_files, smoothing):
+    uni = unigram.getcount(train_files, 0)[0]
     train_dict = {}
     bigram_count = 0
     prev_char = ''
@@ -59,7 +62,7 @@ def train(train_files):
     for c in character_set:
         train_dict[c] = {}
         for c2 in character_set:
-            train_dict[c][c2] = 0
+            train_dict[c][c2] = smoothing
 
     for path in train_files:
         with open(path) as f:
@@ -73,5 +76,5 @@ def train(train_files):
 
                 prev_char = c
     print("Finished generating bigram for texts: ", train_files)
-    return generate(train_dict, bigram_count)
+    return generate(train_dict, uni)
     

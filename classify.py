@@ -103,11 +103,11 @@ with open(inputFilePath) as input_file:
                     ot_prob = bigrams['ot'][previous_char][c]
                     
                     if en_prob > 0:
-                        en_prob_sum += math.log(en_prob)
+                        en_prob_sum *= math.log(en_prob)
                     if fr_prob > 0:
-                        fr_prob_sum += math.log(fr_prob)
+                        fr_prob_sum *= math.log(fr_prob)
                     if ot_prob > 0:
-                        ot_prob_sum += math.log(ot_prob)
+                        ot_prob_sum *= math.log(ot_prob)
                 
                 previous_char = c
 

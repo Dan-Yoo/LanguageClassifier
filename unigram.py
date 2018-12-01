@@ -7,7 +7,7 @@ def generate(dict, total_words):
     total = 0
     for key, value in dict.items():
         total += value
-        unigram[key] = value/ float(total_words)
+        unigram[key] = value/ (float(total_words) + len(character_set))
     return unigram
 
 # takes as input unigram dict
@@ -32,14 +32,13 @@ def load(path):
             unigram[key] = value
     return unigram
 
-# takes as input a training file, and outputs the unigram
-def train(train_files):
+def getcount(train_files, smoothing):
     train_dict = {}
     char_count = 0
 
     # initialize training dict
     for c in character_set:
-        train_dict[c] = 0
+        train_dict[c] = smoothing
 
     for path in train_files:
         with open(path) as f:
@@ -50,6 +49,14 @@ def train(train_files):
                 if c in character_set:
                     train_dict[c] += 1
                     char_count += 1
+    
+    return (train_dict, char_count)
+
+# takes as input a training file, and outputs the unigram
+def train(train_files, smoothing):
+    result = getcount(train_files, smoothing)
+    train_dict = result[0]
+    char_count = result[1]
 
     print("Finished generating unigram for texts: ", train_files)
     return generate(train_dict, char_count)

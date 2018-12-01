@@ -39,6 +39,20 @@ def writestep(file, c):
     file.write("OT: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, ot_prob, ot_prob_sum))
     file.write("\n")
 
+def resetprobability():
+    global en_prob_sum
+    global fr_prob_sum
+    global ot_prob_sum
+    global en_prob
+    global fr_prob
+    global ot_prob
+    en_prob_sum = 0
+    fr_prob_sum = 0
+    ot_prob_sum = 0
+    en_prob = 0
+    fr_prob = 0
+    ot_prob = 0
+
 with open(inputFilePath) as input_file:
     while True:
         input_string = input_file.readline()
@@ -73,12 +87,7 @@ with open(inputFilePath) as input_file:
             f.write("According to the unigram model, the sentence is %s\n" % unigram_language)
             f.write("------------------------------------------------------\n")
 
-            en_prob_sum = 0
-            fr_prob_sum = 0
-            ot_prob_sum = 0
-            en_prob = 0
-            fr_prob = 0
-            ot_prob = 0
+            resetprobability()
 
             previous_char = None
             
@@ -108,9 +117,10 @@ with open(inputFilePath) as input_file:
             bigram_language = getlanguage()
             f.write("According to the unigram model, the sentence is %s\n" % bigram_language)
 
-            outputFileCount += 1
 
             print(input_string)
             print("Unigram => %s" % unigram_language)
             print("Bigram => %s" % bigram_language)
             print("-----")
+            outputFileCount += 1
+            resetprobability()

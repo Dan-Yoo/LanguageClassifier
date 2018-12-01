@@ -1,0 +1,16 @@
+
+
+UNIGRAM MODEL:
+According to the unigram model, the sentence is English
+------------------------------------------------------
+BIGRAM MODEL:
+BIGRAM: 
+
+FR: P(
+) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(
+) = 0.000000 ==> log prob of sentence so far: 0.000000
+OT: P(
+) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+According to the unigram model, the sentence is English

@@ -25,7 +25,6 @@ ot_prob = 0
 
 def getlanguage():
     language = "English"
-
     if fr_prob_sum > en_prob_sum and fr_prob_sum > ot_prob_sum:
         language = "French"
     if ot_prob_sum > en_prob_sum and ot_prob_sum > fr_prob_sum:
@@ -34,8 +33,8 @@ def getlanguage():
     return language
 
 def writestep(file, c):
-    file.write("FR: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, en_prob, en_prob_sum))
-    file.write("EN: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, fr_prob, fr_prob_sum))
+    file.write("FR: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, fr_prob, fr_prob_sum))
+    file.write("EN: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, en_prob, en_prob_sum))
     file.write("OT: P(%c) = %f ==> log prob of sentence so far: %f\n" % (c, ot_prob, ot_prob_sum))
     file.write("\n")
 
@@ -103,11 +102,11 @@ with open(inputFilePath) as input_file:
                     ot_prob = bigrams['ot'][previous_char][c]
                     
                     if en_prob > 0:
-                        en_prob_sum *= math.log(en_prob)
+                        en_prob_sum += math.log(en_prob)
                     if fr_prob > 0:
-                        fr_prob_sum *= math.log(fr_prob)
+                        fr_prob_sum += math.log(fr_prob)
                     if ot_prob > 0:
-                        ot_prob_sum *= math.log(ot_prob)
+                        ot_prob_sum += math.log(ot_prob)
                 
                 previous_char = c
 
@@ -115,7 +114,7 @@ with open(inputFilePath) as input_file:
                 writestep(f, c)
 
             bigram_language = getlanguage()
-            f.write("According to the unigram model, the sentence is %s\n" % bigram_language)
+            f.write("According to the bigram model, the sentence is %s\n" % bigram_language)
 
 
             print(input_string)

@@ -1,746 +1,136 @@
-J'ai commence mon etude en genie mecanique mais j'ai transfere en genie logiciel
+toht straks.
 
 UNIGRAM MODEL:
-UNIGRAM: j
-FR: P(j) = 0.000896 ==> log prob of sentence so far: -7.017570
-EN: P(j) = 0.004690 ==> log prob of sentence so far: -5.362323
-OT: P(j) = 0.001574 ==> log prob of sentence so far: -6.454135
-
-UNIGRAM: a
-FR: P(a) = 0.081406 ==> log prob of sentence so far: -9.525876
-EN: P(a) = 0.084115 ==> log prob of sentence so far: -7.837893
-OT: P(a) = 0.059459 ==> log prob of sentence so far: -9.276603
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -12.230657
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -10.444588
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -11.747489
-
-UNIGRAM: c
-FR: P(c) = 0.023080 ==> log prob of sentence so far: -15.999446
-EN: P(c) = 0.030196 ==> log prob of sentence so far: -13.944634
-OT: P(c) = 0.036415 ==> log prob of sentence so far: -15.060263
+UNIGRAM: t
+FR: P(t) = 0.054455 ==> log prob of sentence so far: -2.910381
+EN: P(t) = 0.073350 ==> log prob of sentence so far: -2.612513
+OT: P(t) = 0.045804 ==> log prob of sentence so far: -3.083384
 
 UNIGRAM: o
-FR: P(o) = 0.073867 ==> log prob of sentence so far: -18.604935
-EN: P(o) = 0.053755 ==> log prob of sentence so far: -16.867952
-OT: P(o) = 0.022686 ==> log prob of sentence so far: -18.846271
+FR: P(o) = 0.042243 ==> log prob of sentence so far: -6.074697
+EN: P(o) = 0.058608 ==> log prob of sentence so far: -5.449397
+OT: P(o) = 0.018629 ==> log prob of sentence so far: -7.066420
 
-UNIGRAM: m
-FR: P(m) = 0.024385 ==> log prob of sentence so far: -22.318722
-EN: P(m) = 0.030049 ==> log prob of sentence so far: -20.372878
-OT: P(m) = 0.027002 ==> log prob of sentence so far: -22.458115
-
-UNIGRAM: m
-FR: P(m) = 0.024385 ==> log prob of sentence so far: -26.032509
-EN: P(m) = 0.030049 ==> log prob of sentence so far: -23.877804
-OT: P(m) = 0.027002 ==> log prob of sentence so far: -26.069959
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -28.109905
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -25.629797
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -27.789117
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -30.774192
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -28.233825
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -29.980653
-
-UNIGRAM: c
-FR: P(c) = 0.023080 ==> log prob of sentence so far: -34.542981
-EN: P(c) = 0.030196 ==> log prob of sentence so far: -31.733871
-OT: P(c) = 0.036415 ==> log prob of sentence so far: -33.293427
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -36.620376
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -33.485863
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -35.012585
-
-UNIGRAM: m
-FR: P(m) = 0.024385 ==> log prob of sentence so far: -40.334163
-EN: P(m) = 0.030049 ==> log prob of sentence so far: -36.990789
-OT: P(m) = 0.027002 ==> log prob of sentence so far: -38.624430
-
-UNIGRAM: o
-FR: P(o) = 0.073867 ==> log prob of sentence so far: -42.939652
-EN: P(o) = 0.053755 ==> log prob of sentence so far: -39.914108
-OT: P(o) = 0.022686 ==> log prob of sentence so far: -42.410437
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -45.603939
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -42.518136
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -44.601973
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -47.681335
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -44.270129
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -46.321131
+UNIGRAM: h
+FR: P(h) = 0.006161 ==> log prob of sentence so far: -11.164213
+EN: P(h) = 0.052660 ==> log prob of sentence so far: -8.393296
+OT: P(h) = 0.043878 ==> log prob of sentence so far: -10.192762
 
 UNIGRAM: t
-FR: P(t) = 0.092448 ==> log prob of sentence so far: -50.062444
-EN: P(t) = 0.069295 ==> log prob of sentence so far: -46.939511
-OT: P(t) = 0.055782 ==> log prob of sentence so far: -49.207435
+FR: P(t) = 0.054455 ==> log prob of sentence so far: -14.074594
+EN: P(t) = 0.073350 ==> log prob of sentence so far: -11.005809
+OT: P(t) = 0.045804 ==> log prob of sentence so far: -13.276146
 
-UNIGRAM: u
-FR: P(u) = 0.028581 ==> log prob of sentence so far: -53.617457
-EN: P(u) = 0.063152 ==> log prob of sentence so far: -49.701722
-OT: P(u) = 0.046328 ==> log prob of sentence so far: -52.279444
-
-UNIGRAM: d
-FR: P(d) = 0.040516 ==> log prob of sentence so far: -56.823515
-EN: P(d) = 0.038120 ==> log prob of sentence so far: -52.968738
-OT: P(d) = 0.049390 ==> log prob of sentence so far: -55.287451
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -58.900911
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -54.720731
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -57.006609
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -60.978307
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -56.472724
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -58.725767
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -63.642594
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -59.076752
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -60.917302
-
-UNIGRAM: g
-FR: P(g) = 0.021823 ==> log prob of sentence so far: -67.467384
-EN: P(g) = 0.009401 ==> log prob of sentence so far: -63.743691
-OT: P(g) = 0.029666 ==> log prob of sentence so far: -64.435056
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -69.544780
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -65.495684
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -66.154214
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -72.209067
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -68.099712
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -68.345750
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -74.913847
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -70.706406
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -70.816635
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -76.991243
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -72.458399
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -72.535793
-
-UNIGRAM: m
-FR: P(m) = 0.024385 ==> log prob of sentence so far: -80.705030
-EN: P(m) = 0.030049 ==> log prob of sentence so far: -75.963325
-OT: P(m) = 0.027002 ==> log prob of sentence so far: -76.147638
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -82.782426
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -77.715318
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -77.866795
-
-UNIGRAM: c
-FR: P(c) = 0.023080 ==> log prob of sentence so far: -86.551215
-EN: P(c) = 0.030196 ==> log prob of sentence so far: -81.215364
-OT: P(c) = 0.036415 ==> log prob of sentence so far: -81.179570
-
-UNIGRAM: a
-FR: P(a) = 0.081406 ==> log prob of sentence so far: -89.059521
-EN: P(a) = 0.084115 ==> log prob of sentence so far: -83.690934
-OT: P(a) = 0.059459 ==> log prob of sentence so far: -84.002038
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -91.723808
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -86.294962
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -86.193574
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -94.428588
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -88.901657
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -88.664459
-
-UNIGRAM: q
-FR: P(q) = 0.001330 ==> log prob of sentence so far: -101.051165
-EN: P(q) = 0.011262 ==> log prob of sentence so far: -93.387978
-OT: P(q) = 0.000100 ==> log prob of sentence so far: -97.874800
-
-UNIGRAM: u
-FR: P(u) = 0.028581 ==> log prob of sentence so far: -104.606178
-EN: P(u) = 0.063152 ==> log prob of sentence so far: -96.150189
-OT: P(u) = 0.046328 ==> log prob of sentence so far: -100.946809
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -106.683574
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -97.902181
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -102.665966
-
-UNIGRAM: m
-FR: P(m) = 0.024385 ==> log prob of sentence so far: -110.397361
-EN: P(m) = 0.030049 ==> log prob of sentence so far: -101.407107
-OT: P(m) = 0.027002 ==> log prob of sentence so far: -106.277811
-
-UNIGRAM: a
-FR: P(a) = 0.081406 ==> log prob of sentence so far: -112.905667
-EN: P(a) = 0.084115 ==> log prob of sentence so far: -103.882678
-OT: P(a) = 0.059459 ==> log prob of sentence so far: -109.100279
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -115.610447
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -106.489372
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -111.571164
+UNIGRAM:  
+FR: P( ) = 0.171959 ==> log prob of sentence so far: -15.835093
+EN: P( ) = 0.170011 ==> log prob of sentence so far: -12.777701
+OT: P( ) = 0.152314 ==> log prob of sentence so far: -15.157957
 
 UNIGRAM: s
-FR: P(s) = 0.067011 ==> log prob of sentence so far: -118.313346
-EN: P(s) = 0.087211 ==> log prob of sentence so far: -108.928797
-OT: P(s) = 0.057626 ==> log prob of sentence so far: -114.424946
-
-UNIGRAM: j
-FR: P(j) = 0.000896 ==> log prob of sentence so far: -125.330916
-EN: P(j) = 0.004690 ==> log prob of sentence so far: -114.291120
-OT: P(j) = 0.001574 ==> log prob of sentence so far: -120.879081
-
-UNIGRAM: a
-FR: P(a) = 0.081406 ==> log prob of sentence so far: -127.839222
-EN: P(a) = 0.084115 ==> log prob of sentence so far: -116.766690
-OT: P(a) = 0.059459 ==> log prob of sentence so far: -123.701549
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -130.544003
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -119.373385
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -126.172435
+FR: P(s) = 0.068534 ==> log prob of sentence so far: -18.515519
+EN: P(s) = 0.053168 ==> log prob of sentence so far: -15.711999
+OT: P(s) = 0.047317 ==> log prob of sentence so far: -18.208842
 
 UNIGRAM: t
-FR: P(t) = 0.092448 ==> log prob of sentence so far: -132.925112
-EN: P(t) = 0.069295 ==> log prob of sentence so far: -122.042767
-OT: P(t) = 0.055782 ==> log prob of sentence so far: -129.058739
+FR: P(t) = 0.054455 ==> log prob of sentence so far: -21.425899
+EN: P(t) = 0.073350 ==> log prob of sentence so far: -18.324512
+OT: P(t) = 0.045804 ==> log prob of sentence so far: -21.292226
 
 UNIGRAM: r
-FR: P(r) = 0.055503 ==> log prob of sentence so far: -135.816430
-EN: P(r) = 0.066581 ==> log prob of sentence so far: -124.752103
-OT: P(r) = 0.072926 ==> log prob of sentence so far: -131.677049
+FR: P(r) = 0.052322 ==> log prob of sentence so far: -24.376237
+EN: P(r) = 0.044037 ==> log prob of sentence so far: -21.447237
+OT: P(r) = 0.059881 ==> log prob of sentence so far: -24.107622
 
 UNIGRAM: a
-FR: P(a) = 0.081406 ==> log prob of sentence so far: -138.324736
-EN: P(a) = 0.084115 ==> log prob of sentence so far: -127.227674
-OT: P(a) = 0.059459 ==> log prob of sentence so far: -134.499517
+FR: P(a) = 0.066101 ==> log prob of sentence so far: -27.092809
+EN: P(a) = 0.064589 ==> log prob of sentence so far: -24.186948
+OT: P(a) = 0.048823 ==> log prob of sentence so far: -27.127176
 
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -140.989023
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -129.831702
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -136.691053
+UNIGRAM: k
+FR: P(k) = 0.000202 ==> log prob of sentence so far: -35.600052
+EN: P(k) = 0.006756 ==> log prob of sentence so far: -29.184273
+OT: P(k) = 0.008411 ==> log prob of sentence so far: -31.905391
 
 UNIGRAM: s
-FR: P(s) = 0.067011 ==> log prob of sentence so far: -143.691922
-EN: P(s) = 0.087211 ==> log prob of sentence so far: -132.271127
-OT: P(s) = 0.057626 ==> log prob of sentence so far: -139.544834
+FR: P(s) = 0.068534 ==> log prob of sentence so far: -38.280477
+EN: P(s) = 0.053168 ==> log prob of sentence so far: -32.118571
+OT: P(s) = 0.047317 ==> log prob of sentence so far: -34.956277
 
-UNIGRAM: f
-FR: P(f) = 0.021635 ==> log prob of sentence so far: -147.525365
-EN: P(f) = 0.010178 ==> log prob of sentence so far: -136.858653
-OT: P(f) = 0.014373 ==> log prob of sentence so far: -143.787238
+UNIGRAM: .
+FR: P(.) = 0.008981 ==> log prob of sentence so far: -42.993121
+EN: P(.) = 0.006533 ==> log prob of sentence so far: -37.149460
+OT: P(.) = 0.007609 ==> log prob of sentence so far: -39.834700
 
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -149.602760
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -138.610646
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -145.506396
-
-UNIGRAM: r
-FR: P(r) = 0.055503 ==> log prob of sentence so far: -152.494079
-EN: P(r) = 0.066581 ==> log prob of sentence so far: -141.319982
-OT: P(r) = 0.072926 ==> log prob of sentence so far: -148.124706
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -154.571474
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -143.071975
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -149.843864
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -156.648870
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -144.823968
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -151.563022
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -159.313157
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -147.427996
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -153.754558
-
-UNIGRAM: g
-FR: P(g) = 0.021823 ==> log prob of sentence so far: -163.137948
-EN: P(g) = 0.009401 ==> log prob of sentence so far: -152.094935
-OT: P(g) = 0.029666 ==> log prob of sentence so far: -157.272311
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -165.215343
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -153.846928
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -158.991469
-
-UNIGRAM: n
-FR: P(n) = 0.069649 ==> log prob of sentence so far: -167.879630
-EN: P(n) = 0.073975 ==> log prob of sentence so far: -156.450956
-OT: P(n) = 0.111745 ==> log prob of sentence so far: -161.183005
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -170.584411
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -159.057651
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -163.653891
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -172.661806
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -160.809643
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -165.373048
-
-UNIGRAM: l
-FR: P(l) = 0.045234 ==> log prob of sentence so far: -175.757713
-EN: P(l) = 0.052278 ==> log prob of sentence so far: -163.760823
-OT: P(l) = 0.035343 ==> log prob of sentence so far: -168.715703
-
-UNIGRAM: o
-FR: P(o) = 0.073867 ==> log prob of sentence so far: -178.363202
-EN: P(o) = 0.053755 ==> log prob of sentence so far: -166.684142
-OT: P(o) = 0.022686 ==> log prob of sentence so far: -172.501711
-
-UNIGRAM: g
-FR: P(g) = 0.021823 ==> log prob of sentence so far: -182.187993
-EN: P(g) = 0.009401 ==> log prob of sentence so far: -171.351081
-OT: P(g) = 0.029666 ==> log prob of sentence so far: -176.019464
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -184.892773
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -173.957775
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -178.490350
-
-UNIGRAM: c
-FR: P(c) = 0.023080 ==> log prob of sentence so far: -188.661562
-EN: P(c) = 0.030196 ==> log prob of sentence so far: -177.457821
-OT: P(c) = 0.036415 ==> log prob of sentence so far: -181.803124
-
-UNIGRAM: i
-FR: P(i) = 0.066885 ==> log prob of sentence so far: -191.366343
-EN: P(i) = 0.073778 ==> log prob of sentence so far: -180.064516
-OT: P(i) = 0.084510 ==> log prob of sentence so far: -184.274010
-
-UNIGRAM: e
-FR: P(e) = 0.125256 ==> log prob of sentence so far: -193.443738
-EN: P(e) = 0.173428 ==> log prob of sentence so far: -181.816509
-OT: P(e) = 0.179217 ==> log prob of sentence so far: -185.993168
-
-UNIGRAM: l
-FR: P(l) = 0.045234 ==> log prob of sentence so far: -196.539644
-EN: P(l) = 0.052278 ==> log prob of sentence so far: -184.767688
-OT: P(l) = 0.035343 ==> log prob of sentence so far: -189.335822
-
-According to the unigram model, the sentence is French
+According to the unigram model, the sentence is English
 ------------------------------------------------------
 BIGRAM MODEL:
-BIGRAM: j
-FR: P(j) = 0.000000 ==> log prob of sentence so far: 0.000000
-EN: P(j) = 0.000000 ==> log prob of sentence so far: 0.000000
-OT: P(j) = 0.000000 ==> log prob of sentence so far: 0.000000
-
-BIGRAM: '
-FR: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
-EN: P(') = 0.000445 ==> log prob of sentence so far: -7.718133
-OT: P(') = 0.000000 ==> log prob of sentence so far: 0.000000
-
-BIGRAM: a
-FR: P(a) = 0.000004 ==> log prob of sentence so far: -12.501787
-EN: P(a) = 0.002922 ==> log prob of sentence so far: -13.553716
-OT: P(a) = 0.000000 ==> log prob of sentence so far: 0.000000
-
-BIGRAM: i
-FR: P(i) = 0.003151 ==> log prob of sentence so far: -18.261705
-EN: P(i) = 0.014492 ==> log prob of sentence so far: -17.787845
-OT: P(i) = 0.000052 ==> log prob of sentence so far: -9.872958
-
-BIGRAM:  
-FR: P( ) = 0.000020 ==> log prob of sentence so far: -29.104752
-EN: P( ) = 0.004462 ==> log prob of sentence so far: -23.200025
-OT: P( ) = 0.000831 ==> log prob of sentence so far: -16.965262
-
-BIGRAM: c
-FR: P(c) = 0.006012 ==> log prob of sentence so far: -34.218691
-EN: P(c) = 0.012425 ==> log prob of sentence so far: -27.588061
-OT: P(c) = 0.000009 ==> log prob of sentence so far: -28.588002
+BIGRAM: t
+FR: P(t) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(t) = 0.000000 ==> log prob of sentence so far: 0.000000
+OT: P(t) = 0.000000 ==> log prob of sentence so far: 0.000000
 
 BIGRAM: o
-FR: P(o) = 0.003263 ==> log prob of sentence so far: -39.943784
-EN: P(o) = 0.005426 ==> log prob of sentence so far: -32.804572
-OT: P(o) = 0.000000 ==> log prob of sentence so far: -28.588002
+FR: P(o) = 0.044768 ==> log prob of sentence so far: -3.106271
+EN: P(o) = 0.102800 ==> log prob of sentence so far: -2.274972
+OT: P(o) = 0.020004 ==> log prob of sentence so far: -3.911831
 
-BIGRAM: m
-FR: P(m) = 0.003703 ==> log prob of sentence so far: -45.542323
-EN: P(m) = 0.003235 ==> log prob of sentence so far: -38.538221
-OT: P(m) = 0.000908 ==> log prob of sentence so far: -35.592632
-
-BIGRAM: m
-FR: P(m) = 0.000528 ==> log prob of sentence so far: -53.089287
-EN: P(m) = 0.001793 ==> log prob of sentence so far: -44.862365
-OT: P(m) = 0.001815 ==> log prob of sentence so far: -41.904109
-
-BIGRAM: e
-FR: P(e) = 0.005304 ==> log prob of sentence so far: -58.328566
-EN: P(e) = 0.009516 ==> log prob of sentence so far: -49.517157
-OT: P(e) = 0.005769 ==> log prob of sentence so far: -47.059403
-
-BIGRAM: n
-FR: P(n) = 0.008211 ==> log prob of sentence so far: -63.130887
-EN: P(n) = 0.016024 ==> log prob of sentence so far: -53.650834
-OT: P(n) = 0.038295 ==> log prob of sentence so far: -50.321841
-
-BIGRAM: c
-FR: P(c) = 0.002177 ==> log prob of sentence so far: -69.260731
-EN: P(c) = 0.002884 ==> log prob of sentence so far: -59.499324
-OT: P(c) = 0.000103 ==> log prob of sentence so far: -59.501750
-
-BIGRAM: e
-FR: P(e) = 0.003159 ==> log prob of sentence so far: -75.018291
-EN: P(e) = 0.007031 ==> log prob of sentence so far: -64.456699
-OT: P(e) = 0.000004 ==> log prob of sentence so far: -71.817637
-
-BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -78.513271
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -67.554827
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -75.554525
-
-BIGRAM: m
-FR: P(m) = 0.006599 ==> log prob of sentence so far: -83.534156
-EN: P(m) = 0.009656 ==> log prob of sentence so far: -72.195024
-OT: P(m) = 0.007347 ==> log prob of sentence so far: -80.468048
-
-BIGRAM: o
-FR: P(o) = 0.002547 ==> log prob of sentence so far: -89.506861
-EN: P(o) = 0.003829 ==> log prob of sentence so far: -77.760283
-OT: P(o) = 0.000406 ==> log prob of sentence so far: -88.278068
-
-BIGRAM: n
-FR: P(n) = 0.008525 ==> log prob of sentence so far: -94.271584
-EN: P(n) = 0.013658 ==> log prob of sentence so far: -82.053712
-OT: P(n) = 0.003611 ==> log prob of sentence so far: -93.901968
-
-BIGRAM:  
-FR: P( ) = 0.011836 ==> log prob of sentence so far: -98.708213
-EN: P( ) = 0.008879 ==> log prob of sentence so far: -86.777798
-OT: P( ) = 0.031246 ==> log prob of sentence so far: -97.367818
-
-BIGRAM: e
-FR: P(e) = 0.002938 ==> log prob of sentence so far: -104.538161
-EN: P(e) = 0.011522 ==> log prob of sentence so far: -91.241296
-OT: P(e) = 0.011107 ==> log prob of sentence so far: -101.867976
+BIGRAM: h
+FR: P(h) = 0.001003 ==> log prob of sentence so far: -10.010632
+EN: P(h) = 0.001168 ==> log prob of sentence so far: -9.027340
+OT: P(h) = 0.027258 ==> log prob of sentence so far: -7.514236
 
 BIGRAM: t
-FR: P(t) = 0.002921 ==> log prob of sentence so far: -110.373826
-EN: P(t) = 0.010232 ==> log prob of sentence so far: -95.823566
-OT: P(t) = 0.003075 ==> log prob of sentence so far: -107.652462
-
-BIGRAM: u
-FR: P(u) = 0.001562 ==> log prob of sentence so far: -116.835793
-EN: P(u) = 0.001100 ==> log prob of sentence so far: -102.635566
-OT: P(u) = 0.001224 ==> log prob of sentence so far: -114.358354
-
-BIGRAM: d
-FR: P(d) = 0.000522 ==> log prob of sentence so far: -124.393387
-EN: P(d) = 0.000600 ==> log prob of sentence so far: -110.054847
-OT: P(d) = 0.000289 ==> log prob of sentence so far: -122.507058
-
-BIGRAM: e
-FR: P(e) = 0.004542 ==> log prob of sentence so far: -129.787810
-EN: P(e) = 0.015843 ==> log prob of sentence so far: -114.199891
-OT: P(e) = 0.018568 ==> log prob of sentence so far: -126.493367
+FR: P(t) = 0.000156 ==> log prob of sentence so far: -18.778854
+EN: P(t) = 0.020031 ==> log prob of sentence so far: -12.937816
+OT: P(t) = 0.132299 ==> log prob of sentence so far: -9.536928
 
 BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -133.282791
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -117.298018
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -130.230255
-
-BIGRAM: e
-FR: P(e) = 0.002938 ==> log prob of sentence so far: -139.112739
-EN: P(e) = 0.011522 ==> log prob of sentence so far: -121.761516
-OT: P(e) = 0.011107 ==> log prob of sentence so far: -134.730412
-
-BIGRAM: n
-FR: P(n) = 0.008211 ==> log prob of sentence so far: -143.915060
-EN: P(n) = 0.016024 ==> log prob of sentence so far: -125.895193
-OT: P(n) = 0.038295 ==> log prob of sentence so far: -137.992850
-
-BIGRAM:  
-FR: P( ) = 0.011836 ==> log prob of sentence so far: -148.351689
-EN: P( ) = 0.008879 ==> log prob of sentence so far: -130.619278
-OT: P( ) = 0.031246 ==> log prob of sentence so far: -141.458700
-
-BIGRAM: g
-FR: P(g) = 0.002554 ==> log prob of sentence so far: -154.321842
-EN: P(g) = 0.001655 ==> log prob of sentence so far: -137.023172
-OT: P(g) = 0.005303 ==> log prob of sentence so far: -146.698257
-
-BIGRAM: e
-FR: P(e) = 0.002050 ==> log prob of sentence so far: -160.511592
-EN: P(e) = 0.002646 ==> log prob of sentence so far: -142.958007
-OT: P(e) = 0.013850 ==> log prob of sentence so far: -150.977694
-
-BIGRAM: n
-FR: P(n) = 0.008211 ==> log prob of sentence so far: -165.313912
-EN: P(n) = 0.016024 ==> log prob of sentence so far: -147.091683
-OT: P(n) = 0.038295 ==> log prob of sentence so far: -154.240132
-
-BIGRAM: i
-FR: P(i) = 0.001710 ==> log prob of sentence so far: -171.685350
-EN: P(i) = 0.001790 ==> log prob of sentence so far: -153.417217
-OT: P(i) = 0.003516 ==> log prob of sentence so far: -159.890450
-
-BIGRAM: e
-FR: P(e) = 0.001858 ==> log prob of sentence so far: -177.973771
-EN: P(e) = 0.007582 ==> log prob of sentence so far: -158.299165
-OT: P(e) = 0.016049 ==> log prob of sentence so far: -164.022556
-
-BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -181.468752
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -161.397293
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -167.759444
-
-BIGRAM: m
-FR: P(m) = 0.006599 ==> log prob of sentence so far: -186.489636
-EN: P(m) = 0.009656 ==> log prob of sentence so far: -166.037490
-OT: P(m) = 0.007347 ==> log prob of sentence so far: -172.672967
-
-BIGRAM: e
-FR: P(e) = 0.005304 ==> log prob of sentence so far: -191.728915
-EN: P(e) = 0.009516 ==> log prob of sentence so far: -170.692283
-OT: P(e) = 0.005769 ==> log prob of sentence so far: -177.828261
-
-BIGRAM: c
-FR: P(c) = 0.001829 ==> log prob of sentence so far: -198.032994
-EN: P(c) = 0.003070 ==> log prob of sentence so far: -176.478240
-OT: P(c) = 0.001154 ==> log prob of sentence so far: -184.592609
-
-BIGRAM: a
-FR: P(a) = 0.002588 ==> log prob of sentence so far: -203.989751
-EN: P(a) = 0.002915 ==> log prob of sentence so far: -182.315964
-OT: P(a) = 0.000002 ==> log prob of sentence so far: -197.601644
-
-BIGRAM: n
-FR: P(n) = 0.013667 ==> log prob of sentence so far: -208.282494
-EN: P(n) = 0.010526 ==> log prob of sentence so far: -186.869830
-OT: P(n) = 0.010323 ==> log prob of sentence so far: -202.175040
-
-BIGRAM: i
-FR: P(i) = 0.001710 ==> log prob of sentence so far: -214.653931
-EN: P(i) = 0.001790 ==> log prob of sentence so far: -193.195364
-OT: P(i) = 0.003516 ==> log prob of sentence so far: -207.825358
-
-BIGRAM: q
-FR: P(q) = 0.000030 ==> log prob of sentence so far: -225.075605
-EN: P(q) = 0.001046 ==> log prob of sentence so far: -200.058605
-OT: P(q) = 0.000000 ==> log prob of sentence so far: -207.825358
-
-BIGRAM: u
-FR: P(u) = 0.001151 ==> log prob of sentence so far: -231.842486
-EN: P(u) = 0.009373 ==> log prob of sentence so far: -204.728475
-OT: P(u) = 0.000092 ==> log prob of sentence so far: -217.120276
-
-BIGRAM: e
-FR: P(e) = 0.001153 ==> log prob of sentence so far: -238.607752
-EN: P(e) = 0.006767 ==> log prob of sentence so far: -209.724239
-OT: P(e) = 0.001089 ==> log prob of sentence so far: -223.942579
-
-BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -242.102733
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -212.822366
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -227.679466
-
-BIGRAM: m
-FR: P(m) = 0.006599 ==> log prob of sentence so far: -247.123617
-EN: P(m) = 0.009656 ==> log prob of sentence so far: -217.462564
-OT: P(m) = 0.007347 ==> log prob of sentence so far: -232.592989
-
-BIGRAM: a
-FR: P(a) = 0.003565 ==> log prob of sentence so far: -252.760320
-EN: P(a) = 0.004073 ==> log prob of sentence so far: -222.965836
-OT: P(a) = 0.002192 ==> log prob of sentence so far: -238.715990
-
-BIGRAM: i
-FR: P(i) = 0.003151 ==> log prob of sentence so far: -258.520238
-EN: P(i) = 0.014492 ==> log prob of sentence so far: -227.199965
-OT: P(i) = 0.000052 ==> log prob of sentence so far: -248.588948
+FR: P( ) = 0.112511 ==> log prob of sentence so far: -20.963556
+EN: P( ) = 0.088303 ==> log prob of sentence so far: -15.364802
+OT: P( ) = 0.070682 ==> log prob of sentence so far: -12.186491
 
 BIGRAM: s
-FR: P(s) = 0.007828 ==> log prob of sentence so far: -263.370268
-EN: P(s) = 0.008383 ==> log prob of sentence so far: -231.981524
-OT: P(s) = 0.004570 ==> log prob of sentence so far: -253.977245
-
-BIGRAM:  
-FR: P( ) = 0.017972 ==> log prob of sentence so far: -267.389213
-EN: P( ) = 0.033714 ==> log prob of sentence so far: -235.371364
-OT: P( ) = 0.013075 ==> log prob of sentence so far: -258.314298
-
-BIGRAM: j
-FR: P(j) = 0.000482 ==> log prob of sentence so far: -275.026572
-EN: P(j) = 0.002924 ==> log prob of sentence so far: -241.206092
-OT: P(j) = 0.000688 ==> log prob of sentence so far: -265.595962
-
-BIGRAM: '
-FR: P(') = 0.000000 ==> log prob of sentence so far: -275.026572
-EN: P(') = 0.000445 ==> log prob of sentence so far: -248.924225
-OT: P(') = 0.000000 ==> log prob of sentence so far: -265.595962
-
-BIGRAM: a
-FR: P(a) = 0.000004 ==> log prob of sentence so far: -287.528359
-EN: P(a) = 0.002922 ==> log prob of sentence so far: -254.759808
-OT: P(a) = 0.000000 ==> log prob of sentence so far: -265.595962
-
-BIGRAM: i
-FR: P(i) = 0.003151 ==> log prob of sentence so far: -293.288277
-EN: P(i) = 0.014492 ==> log prob of sentence so far: -258.993936
-OT: P(i) = 0.000052 ==> log prob of sentence so far: -275.468920
-
-BIGRAM:  
-FR: P( ) = 0.000020 ==> log prob of sentence so far: -304.131324
-EN: P( ) = 0.004462 ==> log prob of sentence so far: -264.406117
-OT: P( ) = 0.000831 ==> log prob of sentence so far: -282.561223
+FR: P(s) = 0.163022 ==> log prob of sentence so far: -22.777426
+EN: P(s) = 0.232572 ==> log prob of sentence so far: -16.823358
+OT: P(s) = 0.201559 ==> log prob of sentence so far: -13.788164
 
 BIGRAM: t
-FR: P(t) = 0.028910 ==> log prob of sentence so far: -307.674908
-EN: P(t) = 0.004541 ==> log prob of sentence so far: -269.800815
-OT: P(t) = 0.001096 ==> log prob of sentence so far: -289.377375
+FR: P(t) = 0.053434 ==> log prob of sentence so far: -25.706741
+EN: P(t) = 0.092115 ==> log prob of sentence so far: -19.208076
+OT: P(t) = 0.144286 ==> log prob of sentence so far: -15.724121
 
 BIGRAM: r
-FR: P(r) = 0.001952 ==> log prob of sentence so far: -313.913967
-EN: P(r) = 0.005798 ==> log prob of sentence so far: -274.950976
-OT: P(r) = 0.001782 ==> log prob of sentence so far: -295.707546
+FR: P(r) = 0.100147 ==> log prob of sentence so far: -28.007861
+EN: P(r) = 0.039719 ==> log prob of sentence so far: -22.433993
+OT: P(r) = 0.025707 ==> log prob of sentence so far: -19.385116
 
 BIGRAM: a
-FR: P(a) = 0.003155 ==> log prob of sentence so far: -319.672706
-EN: P(a) = 0.006186 ==> log prob of sentence so far: -280.036492
-OT: P(a) = 0.004480 ==> log prob of sentence so far: -301.115656
+FR: P(a) = 0.085005 ==> log prob of sentence so far: -30.472901
+EN: P(a) = 0.044082 ==> log prob of sentence so far: -25.555703
+OT: P(a) = 0.078584 ==> log prob of sentence so far: -21.928699
 
-BIGRAM: n
-FR: P(n) = 0.013667 ==> log prob of sentence so far: -323.965448
-EN: P(n) = 0.010526 ==> log prob of sentence so far: -284.590358
-OT: P(n) = 0.010323 ==> log prob of sentence so far: -305.689052
+BIGRAM: k
+FR: P(k) = 0.010902 ==> log prob of sentence so far: -34.991686
+EN: P(k) = 0.116355 ==> log prob of sentence so far: -27.706816
+OT: P(k) = 0.014513 ==> log prob of sentence so far: -26.161402
 
 BIGRAM: s
-FR: P(s) = 0.002311 ==> log prob of sentence so far: -330.035549
-EN: P(s) = 0.006971 ==> log prob of sentence so far: -289.556297
-OT: P(s) = 0.003644 ==> log prob of sentence so far: -311.303684
+FR: P(s) = 0.000108 ==> log prob of sentence so far: -44.128033
+EN: P(s) = 0.009722 ==> log prob of sentence so far: -32.340216
+OT: P(s) = 0.002976 ==> log prob of sentence so far: -31.978473
 
-BIGRAM: f
-FR: P(f) = 0.000040 ==> log prob of sentence so far: -340.161680
-EN: P(f) = 0.000037 ==> log prob of sentence so far: -299.748267
-OT: P(f) = 0.000092 ==> log prob of sentence so far: -320.598602
-
-BIGRAM: e
-FR: P(e) = 0.001253 ==> log prob of sentence so far: -346.844111
-EN: P(e) = 0.001078 ==> log prob of sentence so far: -306.580915
-OT: P(e) = 0.002203 ==> log prob of sentence so far: -326.716506
-
-BIGRAM: r
-FR: P(r) = 0.013720 ==> log prob of sentence so far: -351.133047
-EN: P(r) = 0.011210 ==> log prob of sentence so far: -311.071889
-OT: P(r) = 0.033414 ==> log prob of sentence so far: -330.115297
-
-BIGRAM: e
-FR: P(e) = 0.010892 ==> log prob of sentence so far: -355.652771
-EN: P(e) = 0.017447 ==> log prob of sentence so far: -315.120499
-OT: P(e) = 0.007786 ==> log prob of sentence so far: -334.970747
-
-BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -359.147751
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -318.218626
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -338.707634
-
-BIGRAM: e
-FR: P(e) = 0.002938 ==> log prob of sentence so far: -364.977699
-EN: P(e) = 0.011522 ==> log prob of sentence so far: -322.682124
-OT: P(e) = 0.011107 ==> log prob of sentence so far: -343.207792
-
-BIGRAM: n
-FR: P(n) = 0.008211 ==> log prob of sentence so far: -369.780020
-EN: P(n) = 0.016024 ==> log prob of sentence so far: -326.815801
-OT: P(n) = 0.038295 ==> log prob of sentence so far: -346.470230
-
-BIGRAM:  
-FR: P( ) = 0.011836 ==> log prob of sentence so far: -374.216649
-EN: P( ) = 0.008879 ==> log prob of sentence so far: -331.539886
-OT: P( ) = 0.031246 ==> log prob of sentence so far: -349.936080
-
-BIGRAM: g
-FR: P(g) = 0.002554 ==> log prob of sentence so far: -380.186802
-EN: P(g) = 0.001655 ==> log prob of sentence so far: -337.943780
-OT: P(g) = 0.005303 ==> log prob of sentence so far: -355.175636
-
-BIGRAM: e
-FR: P(e) = 0.002050 ==> log prob of sentence so far: -386.376552
-EN: P(e) = 0.002646 ==> log prob of sentence so far: -343.878615
-OT: P(e) = 0.013850 ==> log prob of sentence so far: -359.455074
-
-BIGRAM: n
-FR: P(n) = 0.008211 ==> log prob of sentence so far: -391.178873
-EN: P(n) = 0.016024 ==> log prob of sentence so far: -348.012291
-OT: P(n) = 0.038295 ==> log prob of sentence so far: -362.717512
-
-BIGRAM: i
-FR: P(i) = 0.001710 ==> log prob of sentence so far: -397.550310
-EN: P(i) = 0.001790 ==> log prob of sentence so far: -354.337825
-OT: P(i) = 0.003516 ==> log prob of sentence so far: -368.367829
-
-BIGRAM: e
-FR: P(e) = 0.001858 ==> log prob of sentence so far: -403.838732
-EN: P(e) = 0.007582 ==> log prob of sentence so far: -359.219773
-OT: P(e) = 0.016049 ==> log prob of sentence so far: -372.499935
-
-BIGRAM:  
-FR: P( ) = 0.030349 ==> log prob of sentence so far: -407.333712
-EN: P( ) = 0.045134 ==> log prob of sentence so far: -362.317901
-OT: P( ) = 0.023828 ==> log prob of sentence so far: -376.236823
-
-BIGRAM: l
-FR: P(l) = 0.004465 ==> log prob of sentence so far: -412.745290
-EN: P(l) = 0.017429 ==> log prob of sentence so far: -366.367513
-OT: P(l) = 0.002071 ==> log prob of sentence so far: -382.416624
-
-BIGRAM: o
-FR: P(o) = 0.003040 ==> log prob of sentence so far: -418.541293
-EN: P(o) = 0.002511 ==> log prob of sentence so far: -372.354682
-OT: P(o) = 0.001208 ==> log prob of sentence so far: -389.135421
-
-BIGRAM: g
-FR: P(g) = 0.000319 ==> log prob of sentence so far: -426.590892
-EN: P(g) = 0.000175 ==> log prob of sentence so far: -381.006093
-OT: P(g) = 0.000502 ==> log prob of sentence so far: -396.732292
-
-BIGRAM: i
-FR: P(i) = 0.000731 ==> log prob of sentence so far: -433.812536
-EN: P(i) = 0.000558 ==> log prob of sentence so far: -388.496600
-OT: P(i) = 0.000724 ==> log prob of sentence so far: -403.963149
-
-BIGRAM: c
-FR: P(c) = 0.002559 ==> log prob of sentence so far: -439.780866
-EN: P(c) = 0.001086 ==> log prob of sentence so far: -395.322314
-OT: P(c) = 0.013458 ==> log prob of sentence so far: -408.271313
-
-BIGRAM: i
-FR: P(i) = 0.001066 ==> log prob of sentence so far: -446.625027
-EN: P(i) = 0.001659 ==> log prob of sentence so far: -401.723945
-OT: P(i) = 0.000002 ==> log prob of sentence so far: -421.280348
-
-BIGRAM: e
-FR: P(e) = 0.001858 ==> log prob of sentence so far: -452.913449
-EN: P(e) = 0.007582 ==> log prob of sentence so far: -406.605893
-OT: P(e) = 0.016049 ==> log prob of sentence so far: -425.412454
-
-BIGRAM: l
-FR: P(l) = 0.003707 ==> log prob of sentence so far: -458.510981
-EN: P(l) = 0.003399 ==> log prob of sentence so far: -412.290199
-OT: P(l) = 0.005343 ==> log prob of sentence so far: -430.644429
+BIGRAM: .
+FR: P(.) = 0.194806 ==> log prob of sentence so far: -45.763784
+EN: P(.) = 0.133080 ==> log prob of sentence so far: -34.357020
+OT: P(.) = 0.027221 ==> log prob of sentence so far: -35.582232
 
 BIGRAM: 
 
 FR: P(
-) = 0.003707 ==> log prob of sentence so far: -458.510981
+) = 0.194806 ==> log prob of sentence so far: -45.763784
 EN: P(
-) = 0.003399 ==> log prob of sentence so far: -412.290199
+) = 0.133080 ==> log prob of sentence so far: -34.357020
 OT: P(
-) = 0.005343 ==> log prob of sentence so far: -430.644429
+) = 0.027221 ==> log prob of sentence so far: -35.582232
 
-According to the unigram model, the sentence is French
+According to the bigram model, the sentence is English

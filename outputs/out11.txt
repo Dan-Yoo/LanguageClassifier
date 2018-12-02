@@ -1,16 +1,116 @@
-
+It's cold.
 
 UNIGRAM MODEL:
-According to the unigram model, the sentence is English
+UNIGRAM: i
+FR: P(i) = 0.057977 ==> log prob of sentence so far: -2.847709
+EN: P(i) = 0.053069 ==> log prob of sentence so far: -2.936162
+OT: P(i) = 0.069392 ==> log prob of sentence so far: -2.667984
+
+UNIGRAM: t
+FR: P(t) = 0.054455 ==> log prob of sentence so far: -5.758090
+EN: P(t) = 0.073350 ==> log prob of sentence so far: -5.548675
+OT: P(t) = 0.045804 ==> log prob of sentence so far: -5.751368
+
+UNIGRAM: '
+FR: P(') = 0.009727 ==> log prob of sentence so far: -10.390939
+EN: P(') = 0.002495 ==> log prob of sentence so far: -11.542142
+OT: P(') = 0.000270 ==> log prob of sentence so far: -13.968456
+
+UNIGRAM: s
+FR: P(s) = 0.068534 ==> log prob of sentence so far: -13.071365
+EN: P(s) = 0.053168 ==> log prob of sentence so far: -14.476440
+OT: P(s) = 0.047317 ==> log prob of sentence so far: -17.019342
+
+UNIGRAM:  
+FR: P( ) = 0.171959 ==> log prob of sentence so far: -14.831864
+EN: P( ) = 0.170011 ==> log prob of sentence so far: -16.248332
+OT: P( ) = 0.152314 ==> log prob of sentence so far: -18.901153
+
+UNIGRAM: c
+FR: P(c) = 0.023730 ==> log prob of sentence so far: -18.572879
+EN: P(c) = 0.018313 ==> log prob of sentence so far: -20.248476
+OT: P(c) = 0.029902 ==> log prob of sentence so far: -22.410983
+
+UNIGRAM: o
+FR: P(o) = 0.042243 ==> log prob of sentence so far: -21.737196
+EN: P(o) = 0.058608 ==> log prob of sentence so far: -23.085361
+OT: P(o) = 0.018629 ==> log prob of sentence so far: -26.394019
+
+UNIGRAM: l
+FR: P(l) = 0.041082 ==> log prob of sentence so far: -24.929381
+EN: P(l) = 0.035890 ==> log prob of sentence so far: -26.412657
+OT: P(l) = 0.029021 ==> log prob of sentence so far: -29.933754
+
+UNIGRAM: d
+FR: P(d) = 0.029956 ==> log prob of sentence so far: -28.437406
+EN: P(d) = 0.032147 ==> log prob of sentence so far: -29.850093
+OT: P(d) = 0.040555 ==> log prob of sentence so far: -33.138850
+
+UNIGRAM: .
+FR: P(.) = 0.008981 ==> log prob of sentence so far: -33.150050
+EN: P(.) = 0.006533 ==> log prob of sentence so far: -34.880982
+OT: P(.) = 0.007609 ==> log prob of sentence so far: -38.017274
+
+According to the unigram model, the sentence is French
 ------------------------------------------------------
 BIGRAM MODEL:
+BIGRAM: i
+FR: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+EN: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+OT: P(i) = 0.000000 ==> log prob of sentence so far: 0.000000
+
+BIGRAM: t
+FR: P(t) = 0.175031 ==> log prob of sentence so far: -1.742791
+EN: P(t) = 0.086908 ==> log prob of sentence so far: -2.442906
+OT: P(t) = 0.103772 ==> log prob of sentence so far: -2.265563
+
+BIGRAM: '
+FR: P(') = 0.000889 ==> log prob of sentence so far: -8.767969
+EN: P(') = 0.089049 ==> log prob of sentence so far: -4.861469
+OT: P(') = 0.029845 ==> log prob of sentence so far: -5.777302
+
+BIGRAM: s
+FR: P(s) = 0.000075 ==> log prob of sentence so far: -18.272009
+EN: P(s) = 0.028016 ==> log prob of sentence so far: -8.436460
+OT: P(s) = 0.002612 ==> log prob of sentence so far: -11.724995
+
+BIGRAM:  
+FR: P( ) = 0.180280 ==> log prob of sentence so far: -19.985251
+EN: P( ) = 0.096280 ==> log prob of sentence so far: -10.776955
+OT: P( ) = 0.075843 ==> log prob of sentence so far: -14.304089
+
+BIGRAM: c
+FR: P(c) = 0.459342 ==> log prob of sentence so far: -20.763212
+EN: P(c) = 0.285421 ==> log prob of sentence so far: -12.030745
+OT: P(c) = 0.000281 ==> log prob of sentence so far: -22.482278
+
+BIGRAM: o
+FR: P(o) = 0.115392 ==> log prob of sentence so far: -22.922635
+EN: P(o) = 0.050166 ==> log prob of sentence so far: -15.023164
+OT: P(o) = 0.000048 ==> log prob of sentence so far: -32.427212
+
+BIGRAM: l
+FR: P(l) = 0.031667 ==> log prob of sentence so far: -26.375115
+EN: P(l) = 0.054229 ==> log prob of sentence so far: -17.937709
+OT: P(l) = 0.056275 ==> log prob of sentence so far: -35.304713
+
+BIGRAM: d
+FR: P(d) = 0.000943 ==> log prob of sentence so far: -33.341326
+EN: P(d) = 0.062235 ==> log prob of sentence so far: -20.714552
+OT: P(d) = 0.022057 ==> log prob of sentence so far: -39.118834
+
+BIGRAM: .
+FR: P(.) = 0.027429 ==> log prob of sentence so far: -36.937489
+EN: P(.) = 0.071161 ==> log prob of sentence so far: -23.357359
+OT: P(.) = 0.020745 ==> log prob of sentence so far: -42.994294
+
 BIGRAM: 
 
 FR: P(
-) = 0.000000 ==> log prob of sentence so far: 0.000000
+) = 0.027429 ==> log prob of sentence so far: -36.937489
 EN: P(
-) = 0.000000 ==> log prob of sentence so far: 0.000000
+) = 0.071161 ==> log prob of sentence so far: -23.357359
 OT: P(
-) = 0.000000 ==> log prob of sentence so far: 0.000000
+) = 0.020745 ==> log prob of sentence so far: -42.994294
 
-According to the unigram model, the sentence is English
+According to the bigram model, the sentence is English
